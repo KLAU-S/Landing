@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kareem</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+    <body>
+        <div class="video-bg">
+            <video width="320" height="240" autoplay loop muted>
+              <source src="https://assets.codepen.io/3364143/7btrrd.p4" type="video/mp4">
+            </video>
+          </div>
+          <div class="app">
+            <div class="header">
+              <div class="menu-circle"></div>
+              <div class="header-menu">
+                <a class="menu-link is-active" href="#">Profile</a>
+              </div>
+              <div class="header-profile">
+                <div class="notification">
+                  <a style="text-decoration: none; color:white;" href="mailto:enayatkareem99@gmail.com">GetInTouch</a>
+                </div>
+                <img class="profile-img" src="./assets/dp4.jpg" alt="">
+              </div>
+            </div>
+            <div class="wrapper">
+                <h1>Hello, I am Enayat. I am a <br> <span class="input"></span></h1>
+            </div>
+
+
+        <div class="container">
+            <input type="radio" name="radio" class="radioInput" id="tab1" checked hidden/>
+            <input type="radio" name="radio" class="radioInput" id="tab2" hidden/>
+            <input type="radio" name="radio" class="radioInput" id="tab3" hidden/>
+            
+            <div class="tabHeader-container">
+              <label for="tab1" class="tabHeader">Projects</label>
+              <label for="tab2" class="tabHeader">About Me</label>
+              <label for="tab3" class="tabHeader">Hire Me</label>
+            </div>
+            
+            <span class="activeTab-indicator"></span>
+          
+            <div class="tabContent-container">
+              <div class="tabContent tab1-content">
+                <div class="content-wrapper">
+                    <div class="content-section">
+                      <div class="content-section-title">OIBGRIP Projects</div>
+                      <ul>
+                        <li class="adobe-product">
+                          <div class="products">
+                            <svg viewBox="0 0 52 52">
+                              <image href="./assets/cal.png" height="51" width="51"></image>
+                            </svg> Calculator
+                          </div>
+                          <span class="status">
+                            <span class="status-circle green"></span> Calculator </span>
+                          <div class="button-wrapper">
+                            <a role="button" href="https://klau-s.github.io/OIBGRIP/lvl2_task1/Calculator/index.html"><button class="content-button status-button open">Open</button></a>
+                          </div>
+                        </li>
+                        <li class="adobe-product">
+                          <div class="products">
+                            <svg viewBox="0 0 52 52">
+                              <image href="./assets/bouquet.png" height="51" width="51"></image>
+                            </svg> Tribute Page
+                          </div>
+                          <span class="status">
+                            <span class="status-circle green"></span>Tribute page </span>
+                          <div class="button-wrapper">
+                            <a href="https://klau-s.github.io/OIBGRIP/Tribute_Page/index.html"><button class="content-button status-button open">Open</button></a>
+                          </div>
+                        </li>
+                        <li class="adobe-product">
+                          <div class="products">
+                            <svg viewBox="0 0 52 52">
+                              <image href="./assets/check-sign.png" height="51" width="51"></image>
+                            </svg> To-Do Webapp
+                          </div>
+                          <span class="status">
+                            <span class="status-circle green"></span>Made Using Django</span>
+                          <div class="button-wrapper">
+                            <a href="https://github.com/KLAU-S/OIBGRIP/tree/master/lvl2_task3"><button class="content-button status-button open">Open</button></a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+              
+              <div class="tabContent tab2-content">
+                <div class="content-wrapper">
+                  <p style="display: flex; justify-content: center; font-family: Raleway; font-weight:normal; font-size: larger;">hey, I am Enayat, an Undergraduate Computer Science and Engineering Student at Central University of Haryana.<br>
+                     In my current role as an intern at The Sparks Foundation, I have worked on a number of projects that have given me a strong understanding of Statistical Analysis, Problem Solving and Trouble-shooting.
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabContent tab3-content">
+                <div class="content-wrapper">
+                    <div class="content-section">
+                      <div class="content-section-title">Download Section</div>
+                      <ul>
+                        <li class="adobe-product">
+                          <div class="products">
+                            <svg viewBox="0 0 52 52">
+                              <image href="./assets/curriculum-vitae.png" height="51" width="51"></image>
+                            </svg>Curriculum-Vitae
+                          </div>
+                          <span class="status">
+                            <span class="status-circle blue"></span>last modified : Sep 1, 22</span>
+                          <div class="button-wrapper">
+                            <a role="button" href="./assets/Curriculum-Vitae.pdf.mp4" target="_blank"><button class="content-button status-button open btn"onclick="myFunction()"><img style="max-height: 51; width: 20px;" src="./assets/download.png" alt=""></button></a>
+                          </div>
+                          <!-- <div class="video-container">
+                            <span class="close">&#10006;</span>
+                            <video src="./assets/undefined.mp4" control="false"></video>
+                          </div> -->
+                        </li>
+                        <li class="adobe-product">
+                          <div class="products">
+                            <svg viewBox="0 0 52 52">
+                              <image href="./assets/res.png" height="51" width="51"></image>
+                            </svg>Resume
+                          </div>
+                          <span class="status">
+                            <span class="status-circle green"></span>last modified : Aug 21, 22</span>
+                          <div class="button-wrapper">
+                            <a role="button" href="./assets/resume.pdf.mp4" target="_blank"><button class="content-button status-button open"><img style="max-height: 51; width: 20px;" src="./assets/download.png" alt=""></button></a>
+                            <!-- <video autoplay loop muted playsinline src="video.mp4"></video> -->
+                          </div>
+                        </li>
+                        <li class="adobe-product">
+                          <div class="products">
+                            <svg viewBox="0 0 52 52">
+                              <image href="./assets/letter.png" height="51" width="51"></image>
+                            </svg> Cover Letter
+                          </div>
+                          <span class="status">
+                            <span class="status-circle blue"></span>last modified : Sep 1, 22</span>
+                          <div class="button-wrapper">
+                            <a role="button" href="./assets/coverletter.pdf.mp4" target="_blank"><button class="content-button status-button open"><img style="max-height: 51; width: 20px;" src="./assets/download.png" alt=""></button></a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="overlay-app"></div>
+  </div>
+</body>
+  <script>
+    // const btn= document.querySelector('.btn');
+    // const videoContainer = document.querySelector('.video-container');
+    // const close = document.querySelector('.close');
+
+    // btn.addEventListener('click', ()=> {
+    //   videoContainer.classList.add('show');
+    // });
+    // close.addEventListener('click', ()=> {
+    //   videoContainer.classList.remove('show');
+    // });
+  
+    function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+
+    if (popup.paused){ 
+        popup.play(); 
+        }
+      else{ 
+        popup.pause();
+        }
+    
+    }
+
+    $(function () {
+        $(".menu-link").click(function () {
+        $(".menu-link").removeClass("is-active");
+        $(this).addClass("is-active");
+        });
+        });
+
+        $(function () {
+        $(".main-header-link").click(function () {
+        $(".main-header-link").removeClass("is-active");
+        $(this).addClass("is-active");
+        });
+        });
+
+        const dropdowns = document.querySelectorAll(".dropdown");
+        dropdowns.forEach((dropdown) => {
+        dropdown.addEventListener("click", (e) => {
+        e.stopPropagation();
+        dropdowns.forEach((c) => c.classList.remove("is-active"));
+        dropdown.classList.add("is-active");
+        });
+        });
+
+        $(".search-bar input")
+        .focus(function () {
+        $(".header").addClass("wide");
+        })
+        .blur(function () {
+        $(".header").removeClass("wide");
+        });
+
+        $(document).click(function (e) {
+        var container = $(".status-button");
+        var dd = $(".dropdown");
+        if (!container.is(e.target) && container.has(e.target).length === 0) {
+        dd.removeClass("is-active");
+        }
+        });
+
+        $(function () {
+        $(".dropdown").on("click", function (e) {
+        $(".content-wrapper").addClass("overlay");
+        e.stopPropagation();
+        });
+        $(document).on("click", function (e) {
+        if ($(e.target).is(".dropdown") === false) {
+        $(".content-wrapper").removeClass("overlay");
+        }
+        });
+        });
+
+        $(function () {
+        $(".status-button:not(.open)").on("click", function (e) {
+        $(".overlay-app").addClass("is-active");
+        });
+        $(".pop-up .close").click(function () {
+        $(".overlay-app").removeClass("is-active");
+        });
+        });
+
+        $(".status-button:not(.open)").click(function () {
+        $(".pop-up").addClass("visible");
+        });
+
+        $(".pop-up .close").click(function () {
+        $(".pop-up").removeClass("visible");
+        });
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script>
+
+    var typed = new Typed(".input", {
+        strings:["AI and ML Enthusiast", "Web Developer", "Freelancer",""],
+        typeSpeed : 120,
+        backSpeed : 30,
+        loop : true, 
+        showCursor: false,
+    });
+  </script>
+    </body>
+</html>
